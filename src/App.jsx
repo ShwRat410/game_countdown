@@ -6,10 +6,10 @@ function App() {
     <>
       <Player />
       <div id="challenges">
-        <TimerChallenge title="Easy" targetTime={5}></TimerChallenge>
+        <TimerChallenge title="Easy" targetTime={3}></TimerChallenge>
         <TimerChallenge title="Not Easy" targetTime={5}></TimerChallenge>
-        <TimerChallenge title="Getting Tough" targetTime={5}></TimerChallenge>
-        <TimerChallenge title="Pros Only" targetTime={5}></TimerChallenge>
+        <TimerChallenge title="Getting Tough" targetTime={8}></TimerChallenge>
+        <TimerChallenge title="Pros Only" targetTime={10}></TimerChallenge>
       </div>
     </>
   );
